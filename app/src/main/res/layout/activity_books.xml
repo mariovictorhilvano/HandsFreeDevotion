@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/oldTestamentTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Old Testament"
+        android:textColor="@color/grey_100"
+        android:background="@color/grey_900"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvOldTestament"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="@color/grey_100"
+        android:background="@color/grey_900"
+        android:layout_weight=".8" />
+
+    <TextView
+        android:id="@+id/newTestamentTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Testament"
+        android:textColor="@color/grey_100"
+        android:background="@color/grey_900"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvNewTestament"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="@color/grey_100"
+        android:background="@color/grey_900"
+        android:layout_weight=".9" />
+
+    <SearchView
+        android:id="@+id/svQuery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Search" />
+
+</LinearLayout>

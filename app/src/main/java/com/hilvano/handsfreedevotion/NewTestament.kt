@@ -1,0 +1,31 @@
+package com.hilvano.handsfreedevotion
+
+enum class NewTestament(val bookName: String, val description: String, val value: Int) {
+    MATTHEW("Matthew", "The life, teachings, death, and resurrection of Jesus", 1),
+    MARK("Mark", "The life and ministry of Jesus", 2),
+    LUKE("Luke", "The life, teachings, death, and resurrection of Jesus", 3),
+    JOHN("John", "The life, teachings, death, and resurrection of Jesus", 4),
+    ACTS("Acts", "The early history of the Christian church and the acts of the apostles", 4),
+    ROMANS("Romans", "Paul's letter explaining the righteousness of God through faith", 5),
+    FIRST_CORINTHIANS("1 Corinthians", "Paul's letter addressing issues in the Corinthian church", 6),
+    SECOND_CORINTHIANS("2 Corinthians", "Paul's second letter to the Corinthian church", 7),
+    GALATIANS("Galatians", "Paul's letter emphasizing justification by faith", 8),
+    EPHESIANS("Ephesians", "Paul's letter about unity and spiritual blessings in Christ", 9),
+    PHILIPPIANS("Philippians", "Paul's letter expressing joy and exhortation to unity", 10),
+    COLOSSIANS("Colossians", "Paul's letter exalting the supremacy of Christ", 11),
+    FIRST_THESSALONIANS("1 Thessalonians", "Paul's letter about the coming of Christ and godly living", 12),
+    SECOND_THESSALONIANS("2 Thessalonians", "Paul's second letter to the Thessalonian church", 13),
+    FIRST_TIMOTHY("1 Timothy", "Paul's letter to Timothy regarding church organization and conduct", 14),
+    SECOND_TIMOTHY("2 Timothy", "Paul's second letter to Timothy with encouragement and instruction", 15),
+    TITUS("Titus", "Paul's letter to Titus regarding leadership and sound doctrine", 16),
+    PHILEMON("Philemon", "Paul's letter to Philemon about forgiveness and reconciliation", 17),
+    HEBREWS("Hebrews", "A sermon highlighting the superiority of Christ and the new covenant", 18),
+    JAMES("James", "A letter emphasizing faith in action and practical Christian living", 19),
+    FIRST_PETER("1 Peter", "Peter's letter of encouragement and exhortation to suffering Christians", 20),
+    SECOND_PETER("2 Peter", "Peter's second letter addressing false teachings and the coming judgment", 21),
+    FIRST_JOHN("1 John", "John's letter about love, obedience, and the assurance of salvation", 22),
+    SECOND_JOHN("2 John", "John's second letter emphasizing walking in truth and love", 23),
+    THIRD_JOHN("3 John", "John's third letter commending hospitality and opposing Diotrephes", 24),
+    JUDE("Jude", "A letter urging believers to contend for the faith and beware of false teachers", 25),
+    REVELATION("Revelation", "A visionary and apocalyptic account of the end times and Christ's ultimate victory", 26)
+}
